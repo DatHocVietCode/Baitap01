@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sinh viên Võ Phan Tấn Đạt\nSinh viên trường Đại học SPKT TPHCM"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/btnShowNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Câu 4"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" /> <!-- Khoảng cách giữa Button và TextView -->
+
+    <Button
+        android:id="@+id/btnReverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Câu 5" />
+</LinearLayout>

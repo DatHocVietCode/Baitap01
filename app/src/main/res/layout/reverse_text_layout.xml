@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- EditText để nhập chuỗi -->
+
+    <!-- Button để thực hiện thao tác -->
+
+    <!-- TextView để hiển thị kết quả -->
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập chuỗi"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnReverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_marginTop="25dp"
+        android:padding="16dp"
+        android:text="Đảo ngược và in hoa"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnReverse"
+        android:layout_marginTop="30dp"
+        android:padding="16dp"
+        android:text="Kết quả sẽ hiển thị ở đây"
+        android:textSize="18sp" />
+
+    <!-- Button Quay lại -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewResult"
+        android:layout_marginTop="30dp"
+        android:text="Quay lại" />
+</RelativeLayout>
